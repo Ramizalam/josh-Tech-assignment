@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The best products start with Figma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#features">Product</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <img  src="Utils/logo.svg" alt="Figma Land logo">
+            <div class="nav-actions">
+                <div class="social-links">
+                    <a href="#" aria-label="Twitter"><img src="Utils/twitter.svg" alt="" srcset=""></a>
+                    <a href="#" aria-label="Facebook"><img src="Utils/facebook.svg" alt="" srcset=""></a>
+                    <a href="#" aria-label="LinkedIn"><img src="Utils/linkedin.svg" alt="" srcset=""></a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        
+        <div class="container hero-content">
+            <h1>The best products start with Figma</h1>
+            <p>Most calendars are designed for teams. Slate is designed for freelancers</p>
+            <a href="#pricing" class="cta-button">Try For Free</a>
+        </div>
+        <div class="hero-cut" aria-hidden="true"></div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <div class="features-header fade-in">
+                <h2>Features</h2>
+                <p>Why teams use Figma: advanced design features built for collaboration</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <img src="Utils/shapes.svg" alt="" srcset="">
+                    <h3>Real-time collaboration</h3>
+                    <p>Slate helps you see how 
+                        many more days you need 
+                        to work to reach your 
+                        financial goal.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <img src="Utils/pencil.svg" alt="" srcset="">
+                    <h3>Built in the browser</h3>
+                    <p>Access your designs anywhere, anytime. No downloads or installations required.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <img src="Utils/brush.svg" alt="" srcset="">
+                    <h3>Design systems</h3>
+                    <p>Create and maintain design systems with shared components and styles across projects.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section -->
+    <section class="video-section">
+        <div class="container">
+            <div class="video-container">
+                <div class="video-embed fade-in">
+                    <video id="promoVideo" preload="metadata" poster="Utils/women.svg">
+                        <source src="Video/corporate video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <button class="video-play" id="videoPlayBtn" aria-label="Play video" type="button"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization Section -->
+    <section class="organization">
+        <div class="container">
+            <div class="org-container">
+                <div class="org-content fade-in">
+                    <h2>Fastest way to organize</h2>
+                    <p>Keep your team organized and focused with powerful project management features built into your design workflow.</p>
+                    <a href="#pricing" class="cta-button">Get Started</a>
+                </div>
+                <img  class="org-image"   src="Utils/laptop screen.svg" alt="" srcset="">
+            </div>
+        </div>
+    </section>
+
+    <!-- Prototyping Section -->
+    <section class="prototyping">
+        <div class="container">
+            <div class="proto-container">
+                <div class="proto-image fade-in">
+                    <img class="proto-illustration" src="Utils/prototype.svg" alt="Newsletter illustration">
+                </div>
+                <div class="proto-content fade-in">
+                    <div class="eyebrow">At your fingertips</div>
+                    <h2>Lightning fast prototyping</h2>
+                    <p class="newsletter-title">Subscribe to our Newsletter</p>
+                    <p class="newsletter-sub">Available exclusively on Figmaland</p>
+                    <form class="newsletter-form" onsubmit="return false;">
+                        <input class="newsletter-input" type="email" placeholder="Your Email" aria-label="Your Email" required>
+                        <button class="newsletter-btn" type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Partners Section -->
+    <section class="partners">
+        <div class="container">
+            <div class="partners-header fade-in">
+                <h2>Partners</h2>
+                <p>More than 40K design teams are designing better with Figma</p>
+            </div>
+            <div class="partners-grid fade-in">
+                <img class="partner-logo" src="Utils/google.svg" alt="" srcset="">
+                <img  class="partner-logo" src="Utils/amazone.svg" alt="" srcset="">
+                <img class="partner-logo" src="Utils/microsoft.svg" alt="" srcset="">
+                <img class="partner-logo" src="Utils/dropbox.svg" alt="" srcset="">
+                <img  class="partner-logo" src="Utils/amazone.svg" alt="" srcset="">
+ 
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="#testimonials" class="cta-button">View All</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="testimonials-header fade-in">
+                <h2>Testimonials</h2>
+            </div>
+            <div class="testimonial-carousel">
+                <div class="testimonial-slides">
+                    <div class="testimonial-card active">
+                        <img src="Utils/ibm.svg" alt="IBM" class="company-logo">
+                        <div class="testimonial-text">
+                            "Figma has completely transformed how we collaborate and iterate on designs. The real-time collaboration features are game-changing for our distributed team."
+                        </div>
+                        <div class="testimonial-author">Sarah Johnson, Design Lead</div>
+                        <div class="testimonial-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="Utils/google.svg" alt="Google" class="company-logo">
+                        <div class="testimonial-text">
+                            "The design system capabilities in Figma have revolutionized our workflow. We can now maintain consistency across all our products effortlessly."
+                        </div>
+                        <div class="testimonial-author">Michael Chen, UX Director</div>
+                        <div class="testimonial-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <img src="Utils/microsoft.svg" alt="Microsoft" class="company-logo">
+                        <div class="testimonial-text">
+                            "Figma's prototyping tools have accelerated our design process significantly. The seamless handoff to developers is a game-changer for our team."
+                        </div>
+                        <div class="testimonial-author">Emily Rodriguez, Product Designer</div>
+                        <div class="testimonial-rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-dots">
+                    <span class="dot active" data-slide="0"></span>
+                    <span class="dot" data-slide="1"></span>
+                    <span class="dot" data-slide="2"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="pricing-header fade-in">
+                <h2>Pricing</h2>
+                <p>Choose the plan that fits your team's needs</p>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card fade-in">
+                    <h3 class="plan-title">FREE</h3>
+                    <p class="plan-description">Organize across all apps by hand</p>
+                    <div class="price-container">
+                        <div class="price">0<span class="currency">$</span></div>
+                        <div class="price-period">Per Month</div>
+                    </div>
+                    
+                    <ul class="features-list">
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                    </ul>
+                    <button class="pricing-cta">Order Now</button>
+                </div>
+                <div class="pricing-card featured fade-in">
+                    <h3 class="plan-title">STANDARD</h3>
+                    <p class="plan-description">Organize across all apps by hand</p>
+                    <div class="price-container">
+                        <div class="price">10<span class="currency">$</span></div>
+                        <div class="price-period">Per Month</div>
+                    </div>
+                    <ul class="features-list">
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                    </ul>
+                    <button class="pricing-cta">Order Now</button>
+                </div>
+                <div class="pricing-card fade-in">
+                    <h3 class="plan-title">BUSINESS</h3>
+                    <p class="plan-description">Organize across all apps by hand</p>
+                    <div class="price-container">
+                        <div class="price">99<span class="currency">$</span></div>
+                        <div class="price-period">Per Month</div>
+                    </div>
+                    <ul class="features-list">
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                        <li>Pricing Feature</li>
+                    </ul>
+                    <button class="pricing-cta">Order Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-content fade-in">
+                    <h2>Contact Us</h2>
+                    <form class="contact-form" onsubmit="handleSubmit(event)">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" placeholder="Tell us about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="submit-btn">Send</button>
+                    </form>
+                </div>
+                <div class="contact-info fade-in">
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon"><img src="Utils/mapicon.svg" alt="" srcset=""></div>
+                            <div class="contact-text">6386 Spring St undefined Anchorage, Georgia 12473 United States</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><img src="Utils/phone icon.svg" alt="" srcset=""></div>
+                            <div class="contact-text">(843) 555-0130</div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"><img src="Utils/mail icon.svg" alt="" srcset=""></div>
+                            <div class="contact-text">willie.jennings@example.com</div>
+                        </div>
+                    </div>
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13992.552662426073!2d77.18290239952611!3d28.745291510728556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfe268d4eef9d%3A0x7461a39a7ae9a897!2sSant%20Nagar%2C%20Burari%2C%20Delhi%2C%20110084!5e0!3m2!1sen!2sin!4v1758367890828!5m2!1sen!2sin" 
+                            width="100%" 
+                            height="300" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><img src="Utils/blue-facebook.svg" alt="" srcset=""></a>
+                        <a href="#" aria-label="Twitter"><img src="Utils/blue-twitter.svg" alt="" srcset=""></a>
+                        <a href="#" aria-label="LinkedIn"><img src="Utils/blue-lindkedin.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Success Modal -->
+    <div id="successModal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <div class="modal-body">
+                <div class="success-icon">✓</div>
+                <h3>Your query sent successfully</h3>
+                <p>Thank you for contacting us. We'll get back to you soon!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Pages</h3>
+                    <ul class="footer-links">
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Company</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Free Stuff</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Plugins</a></li>
+                        <li><a href="#">Resources</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Get in Touch</h3>
+                      <ul class="footer-links">
+                    <li>  <span><img src="Utils/phone icon.svg" alt="" srcset=""></span><a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                        <li> <span><img src="Utils/mapicon.svg" alt="" srcset=""></span><a href="#">123 Design Street<br>San Francisco, CA 94102</a></li>
+                    </ul>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><img src="Utils/facebook.svg" alt="" srcset=""></a>
+                        <a href="#" aria-label="Twitter"><img src="Utils/twitter.svg" alt="" srcset=""></a>
+                        <a href="#" aria-label="LinkedIn"><img src="Utils/linkedin.svg" alt="" srcset=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
